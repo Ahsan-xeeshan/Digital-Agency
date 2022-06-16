@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-content{
+    justify-content: space-between;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
+.alignment{
+    align-items: center;
+}
+ul, ol, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* common style ends here */
+
+nav .logo{
+    width: 40%;
+}
+nav .logo h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav .logo h4 a{
+    color: #272D38;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 50px 0;
+}
+
+nav .menu{
+    width: 60%;
+    height: 28px;
+    text-align: right;
+    padding: 50px;
+}
+
+nav .menu ul li{
+    display: inline-block;
+    padding: 0 25px;
+}
+
+nav .menu ul li a{
+    color: #272D38;
+    font-size: 18px;
+    text-transform: lowercase;
+}
+
+nav .menu ul li a:hover{
+    color: brown
+}
+
+/* nav ends here */
+
+#banner .banner-details{
+    width: 50%;
+}
+
+#banner .banner-text h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #272D38;
+    margin-top: 145px;
+}
+
+#banner .banner-text p{
+font-size: 18px;
+width: 488px;
+line-height: 28px;
+text-transform: capitalize;
+color: #272D38;
+margin-top: 24px;
+}
+
+.button{
+    color: white;
+    background-color:#8EADD5;
+    padding: 10px 30px;
+    margin-top: 50px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: 500;
+    width: fit-content;
+}
+
+
+#banner .button a{
+    color: white;
+    font-size: 20px;
+}
+#banner .button:hover{
+    background-color: aqua;
+}
+
+
+#banner .banner-img{
+    width: 50%;
+    text-align: center;
+}
+
+#banner .banner-img img{
+    margin-top: 100px;
+}
+
+/* banner ends here */
+
+#clients p{
+    text-align: center;
+    margin-top: 175px;
+}
+
+#clients img{
+    margin: 15px 150px;
+    width: 850px;
+    height: 75px;
+}
+
+/* clients part ends here */
+
+#team-work{
+    margin-top: 150px;
+}
+
+#team-work .team-img{
+    width: 60%;
+}
+
+#team-work .team-details{
+    width: 40%;
+}
+
+#team-work .team-img img{
+    width: 380px;
+    margin-left: 100px;
+}
+
+#team-work .team-details h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #272D38;
+    padding-top: 100px;
+    text-transform: capitalize;
+}
+
+#team-work .team-details p{
+    font-size: 16px;
+    color: #272D38;
+    margin-top: 36px;
+    margin-bottom: 45px;
+    width: 380px;
+}
+
+#team-work .team-details span a{
+    margin-top: 60px;
+    color: #272D38;
+}
+
+#team-work .team-details span a:hover {
+    color: blue;   
+}
+
+#team-work .team-details span a i{
+    font-size: 30px;
+}
+
+/* team work ends here */
+
+#Customer_dev{
+    margin-top: 150px;
+}
+
+#Customer_dev .dev_details {
+    width: 50%;
+}
+
+#Customer_dev .dev_img{
+    width: 50%
+}
+#Customer_dev .dev_details h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #272D38;
+    padding-top: 100px;
+    text-transform: capitalize;
+}
+
+#Customer_dev .dev_details p{
+    font-size: 16px;
+    color: #272D38;
+    margin-top: 36px;
+    margin-bottom: 45px;
+    width: 380px;
+}
+
+#Customer_dev .dev_details span a{
+    margin-top: 60px;
+    color: #272D38;
+}
+
+#Customer_dev .dev_details span a:hover {
+    color: blue;
+}
+#Customer_dev .dev_details span a i{
+    font-size: 30px;
+}
+
+#Customer_dev .dev_img img{
+    width: 380px;
+    margin-left: 50px;
+}
+
+/* Customer development ends here */
+
+#testimonials{
+    margin-top: 150px;
+}
+
+#testimonials p{
+    font-size: 16px;
+    color: #272D38;
+    margin: auto;
+    text-align: center;
+}
+
+#testimonials h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #272D38;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 450px;
+    text-transform: capitalize;
+}
+
+#testimonials .test_item{
+    width: 32%;
+    text-align: center;
+    background-color: #F6F6F6;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+#testimonials .test_item img{
+    margin: 50px auto 5px;
+}
+
+#testimonials .test_item h6{
+    font-size: 18px;
+    color: #272D38;
+    font-weight: 400;
+}
+
+#testimonials .test_item p{
+    font-size: 14px;
+    color: #272D38;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding: 35px 25px;
+}
+
+/* testimonials part ends here */
+
+#contact .contact_part{
+    border-radius: 10px;
+    background-color: #F6F6F6;
+    margin: 50px;
+}
+
+#contact .contact_img{
+    width: 50%;
+    padding: 5px;
+}
+
+#contact .contact_img img{
+    text-align: center;
+}
+
+#contact .contact_details{
+    width: 50%;
+}
+
+#contact .contact_details h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #272D38;
+    padding-top: 100px;
+    text-transform: capitalize;
+}
+
+#contact .contact_details p{
+    font-size: 16px;
+    color: #272D38;
+    margin-top: 36px;
+    width: 380px;
+}
+
+#contact .button a{
+    color: white;
+    font-size: 20px;
+}
+#contact .button:hover{
+    background-color: aqua;
+}
+
+/* contact part ends here */
+
+footer{
+    background-color: #F6F6F6;
+    margin-top: 150px;
+}
+
+footer .footer_logo{
+    width: 35%;
+    margin-top: 50px;
+    
+}
+footer .footer_logo h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: #272D38;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+footer .footer_logo p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #272D38;
+    width: 250px;
+    padding-left: 50px;
+}
+footer .footer_item{
+    width: 21%;
+    margin-top: 50px;
+}
+
+footer h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: #272D38;
+    padding-bottom: 30px;
+}
+
+footer .footer_item p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #272D38;
+}
+
+footer .footer_item li{
+    padding: 10px 0px;
+}
+
+footer .footer_item li a{
+    color: #272D38;   
+    transition: 0.3s;
+}
+
+footer .footer_item li:hover a{
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+footer .copyright p{
+    margin-top: 50px;
+    font-size: 16px;
+    color: #272D38;
+    text-align: center;
+    padding-bottom: 15px;
+}
